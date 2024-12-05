@@ -3,7 +3,7 @@ let favoriteBooks = [];
 
 function addFavoriteBook(bookName){
         bookName = bookName.toLowerCase();
-        if(bookName.includes('great')){
+        if(!bookName.includes('great')){
                 favoriteBooks.push(bookName);
         }
 }
